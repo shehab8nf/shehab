@@ -1,0 +1,27 @@
+* Program calculates A taxicab company  charges
+ Author: shehab ahmed
+ Date: 18 .3. 2021
+ Version: 1.0
+*/
+
+
+#include<iostream>
+
+int main () {
+    float dis,dur,tim ;
+    std::cout << "Please enter distance of journey in Km  : ";
+    std::cin  >> dis;
+    std::cout << "Please enter journey duration in minutes: ";
+    std::cin  >> dur;
+    std::cout << "Please enter the journey time: ";
+    std::cin  >> tim;
+
+    float charges = 3.5 + 2.1 * dis + 0.90 * dur ;
+
+
+    if ("2300 < tim && < 0600" ){
+        std::cout << "\the total of charges  = " << charges + charges * 0.15 << std::endl;
+    }else{
+        std::cout << "\the total of charges  = " << charges << std::endl;
+    }
+    }
